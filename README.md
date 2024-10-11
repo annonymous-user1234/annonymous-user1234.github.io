@@ -1,1 +1,1 @@
-# annonymous-user1234.github.io
+# Articulate Anything: Open-vocabulary 3D Articulated Object Generation
