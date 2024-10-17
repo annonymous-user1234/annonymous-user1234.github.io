@@ -42,11 +42,20 @@
             </div>
         </section>
 
+        <!-- <div class="sketchfab-embed-wrapper">
+            <iframe title="A 3D model" src="https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae04d9c/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div> -->
+
+        <!-- <div class="relative w-full z-0" style="padding-bottom: calc(56.25%);">
+            <embed src="https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae04d9c/embed" class="inset-0 absolute w-full h-full">
+        </div> -->
+        
         <section class="teaser">
             <div class="row justify-content-center"><div class="col-12 col-md-10">
-                <div class="alert alert-secondary" role="alert">
-                    <span><i class="fas fa-info-circle"></i></span> 
-                    Click objects in the teaser to see articulated results.  
+                <div class="alert alert-secondary text-center" role="alert">
+                    <span><i class="fas fa-arrow-down"></i></span> 
+                    Try clicking objects in the teaser to see articulated results! 
+                    <span><i class="fas fa-arrow-down"></i></span> 
                 </div>
                 <figure>
                     <img src="./assets/imgs/teaser.png" class="img-fluid" alt="Teaser Image" usemap="#image-map">
@@ -75,7 +84,7 @@
                 </div>
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
-                        <img src="assets/imgs/pipeline_1.png" width="90%">
+                        <img src="assets/imgs/pipeline_1.jpg" width="90%">
                     </div>
                 </div>
             </div></div>
@@ -84,9 +93,108 @@
         <hr class="my-6">
 
         <section class="section container">
+            <div class="row justify-content-center">
+            <div class="col-12 col-md-10">
+
             <h2 class="title is-3 has-text-centered">Qualitative Results</h2>
-            <div class="row justify-content-center my-4">
-                <h3 class="subtitle is-5 text-center"> Real-to-Sim-to-Real </h3>
+
+            
+            <div class="container">
+                <h3 class="subtitle is-5 has-text-centered pt-5">
+                    Articulated objects annotated by Articulate Anything, starting from an random 3D mesh. 
+                </h3>
+                <div class="row">
+                    <div class="col-4 col-md-6 justify-content-center text-center align-middle">
+                        <div class="row row-cols-2" id="objaverse_demos">
+                            <!-- to be filled -->
+                        </div>
+                    </div>
+                    <div class="col-8 col-md-6 justify-content-center align-middle">
+                        <div class="card">
+                            <div class="card-header bg-success text-light align-items-middle">
+                                <h5 class="pt-2">
+                                    <span><i class="fas fa-long-arrow-alt-left"></i></span>
+                                    Please select an example
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <h5>
+                                    <span class="badge rounded-pill bg-success">Input</span>
+                                    <b class="">3D Object</b>
+                                </h5>
+                                <div class="row my-3 justify-content-center">
+                                    <div class="col-8">
+                                        <div class="sketchfab-embed-wrapper ratio ratio-16x9" >
+                                            <iframe id="objaverse_demos-model" title="A 3D model" src="" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                                        </div>    
+                                    </div>
+                                </div>
+                                <h5 class="pt-3">
+                                    <span class="badge rounded-pill bg-success">Ouput</span>
+                                    <b class="">Articulated Mesh</b>
+                                </h5>
+                                <div class="row my-3 justify-content-center">
+                                    <div class="col-6">
+                                        <img id="objaverse_demos-result" src="" class="rounded img-gallery" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- to be filled -->
+            </div>
+            
+            
+            <div class="container pt-5">
+                <h3 class="subtitle is-5 has-text-centered pt-5">
+                    Articulated objects generated by Articulate Anything, starting from an image-to-3D object
+                </h3>
+                <div class="row">
+                    <div class="col-4 col-md-6 justify-content-center text-center align-middle">
+                        <div class="row row-cols-2 row-cols-md-4" id="rd_demos">
+                            <!-- to be filled -->
+                        </div>
+                    </div>
+                    <div class="col-8 col-md-6 justify-content-center align-middle">
+                        <div class="card">
+                            <div class="card-header bg-success text-light align-items-middle">
+                                <h5 class="pt-2">
+                                    <span><i class="fas fa-long-arrow-alt-left"></i></span>
+                                    Please select an example
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <h5>
+                                    <span class="badge rounded-pill bg-success">Input</span>
+                                    <b class="">Image-to-3D Object</b>
+                                </h5>
+                                <h5 class="pt-3">
+                                    <span class="badge rounded-pill bg-success">Output</span>
+                                    <b class="">Articulated Mesh</b>
+                                </h5>
+                                <div class="pl-1">
+                                    <div class="input-group mb-3">
+                                        <div class="d-none d-md-block input-group-prepend">
+                                            <span class="input-group-text" style="height: 2.5rem;"><small>prompt</small></span>
+                                        </div>       
+                                        <input disabled type="text" id="rd_demos-prompt" class="form-control" placeholder="prompt" aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                                <div class="row my-3 justify-content-center">
+                                    <div class="col-6">
+                                        <img id="rd_demos-result" src="" class="rounded img-gallery" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- to be filled -->
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="subtitle is-5 text-center pt-5"> Real-to-Sim-to-Real </h3>
                 <div class="col-8 col-md-5 text-center">
                 <b>Simulation</b>
                 <div class="row-cols-1">
@@ -122,32 +230,7 @@
                 </div>
             </div>
 
-            <h3 class="subtitle is-5 has-text-centered pt-5">
-                Articulated objects generated by Articulate Anything, starting from an image-to-3D object
-            </h3>
-            
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4" id="demos">
-                <!-- to be filled -->
-
-<!-- <div class="col justify-content-center align-middle">
-    <div class="card border-1 m-2">
-        <div class="card-image text-center">
-            <video autoplay muted loop playsinline webkit-playsinline >
-                <source src="assets/videos/drawer.mp4" type="video/mp4">
-            </video>
-        </div>
-        <div class="backgroundEffect"></div>
-        <div class="card-body text-center">
-            <h5 class="card-title">
-                Drawer
-            </h5>
-            <div class="card-text text-prompt">
-                "A wooden drawer"
-            </div>
-        </div>
-    </div>
-</div>  -->
+            </div></div>
 
         </section>
     </div>
@@ -165,6 +248,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"></script>
     <script src="/js/teaserMaker.js"></script>
     <script src="/js/demosMaker.js"></script>
+    <script src="/js/objaverseDemoMaker.js"></script>
+    <script src="/js/rdDemoMaker.js"></script>
+    <script src="js/progressBar.js"></script>
     <script>
         $(function($) {
             makeTeaser();
@@ -172,7 +258,9 @@
         });
         
         $(document).ready(function() {
-            makeDemos();
+            // makeDemos();
+            makeObjaverseDemos();
+            makeRichDreamerDemos();
 
             // Function to show the hover card on mouseenter or touchstart with fade-in effect
             function showHoverCard(event, $hoverCard) {

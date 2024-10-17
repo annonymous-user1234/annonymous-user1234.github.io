@@ -83,7 +83,7 @@ const demos = [
 function makeDemos() {
     demos.forEach((demo) => {
         const $card = $(`<div class="col justify-content-center align-middle"></div>`);
-        const $innerCard = $(`<div class="card border-1 m-2"></div>`);
+        const $innerCard = $(`<div class="card card-gallery border-1 m-2"></div>`);
         const $cardImage = $(`<div class="card-image text-center"></div>`);
         const $image = $(`<img src="${demo.video}" style="width: 100%;">`);
         $cardImage.append($image);
