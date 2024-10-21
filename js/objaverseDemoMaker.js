@@ -44,7 +44,7 @@ const objaverseDemos = [
     {
         name: "Oven",
         thumbnail: "https://media.sketchfab.com/models/9fd6d43d030a43a98a52baa1d5d303f2/thumbnails/e1ca062accd744699753a32e18f822b1/8e9dd9866873433cbca60fa63c0ac59f.jpeg",
-        model: "https://sketchfab.com/3d-models/retro-oven-9fd6d43d030a43a98a52baa1d5d303f2",
+        model: "https://sketchfab.com/3d-models/retro-oven-9fd6d43d030a43a98a52baa1d5d303f2/embed",
         result: "assets/videos/teaser/oven.gif"
     },
     {
