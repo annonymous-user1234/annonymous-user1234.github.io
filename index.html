@@ -37,7 +37,7 @@
         <section class="hero">
             <div class="hero-body">
                 <h1 class="text-center m-2 p-1"><b class="rainbow">Articulate Anything</b></h1>
-                <h2 class="text-center is-size-5-mobile is-size-3">Open-vocabulary 3D Articulated Object Generation</h2>
+                <h2 class="text-center is-size-5-mobile is-size-3">Open-vocabulary 3D Articulated Object Modeling</h2>
                 <p class="text-center is-size-6-mobile is-size-5 m-4">Anonymous Authors</p>
             </div>
         </section>
@@ -60,7 +60,7 @@
                 <figure>
                     <img src="./assets/imgs/teaser.png" class="img-fluid" alt="Teaser Image" usemap="#image-map">
                     <figcaption class="figure-caption my-3">
-                        Articulate Anything turns 3D meshes (e.g. retrieved from <a href="https://objaverse.allenai.org/" class="link-secondary">Objaverse</a>)
+                        Articulate Anything converts 3D meshes (e.g. retrieved from <a href="https://objaverse.allenai.org/" class="link-secondary">Objaverse</a>)
                         into articulated objects. Our pipeline is capable of processing a wide range of objects, including
                         daily necessities, furniture, vehicles and even fictional objects.
                     </figcaption>
@@ -77,14 +77,21 @@
                 <h2 class="title has-text-centered my-3">Abstract</h2>
                 <div class="content has-text-justified my-6">
                     <p>
-                        Generating 3D <b>articulated</b> objects has long been a challenging problem, since it requires to capture both accurate surface geometries and semantically meaningful and spatially precise structures, parts, and joints. Existing methods heavily depend on training data from a limited set of handcrafted articulated object categories (e.g. cabinets and drawers), which restricts their ability to generate a wide range of articulated objects in an open-vocabulary context.
+                        <!-- Generating 3D <b>articulated</b> objects has long been a challenging problem, since it requires to capture both accurate surface geometries and semantically meaningful and spatially precise structures, parts, and joints. Existing methods heavily depend on training data from a limited set of handcrafted articulated object categories (e.g. cabinets and drawers), which restricts their ability to generate a wide range of articulated objects in an open-vocabulary context.
                         To address these limitations, we propose <span class="rainbow">ARTICULATE ANYTHING</span>, an automated framework that is able to convert any rigid 3D mesh into its articulated counterpart in an open-vocabulary manner. Given a 3D mesh, our framework utilizes advanced Vision-Language Models and visual prompting techniques to extract semantic information, allowing for both the segmentation of object parts and the construction of functional joints.
-                        Our experiments show that <span class="rainbow">ARTICULATE ANYTHING</span> can generate large-scale, high-quality 3D articulated objects, including tools, toys, mechanical devices, and vehicles, significantly expanding the coverage of existing 3D articulated object datasets. Additionally, we show that these generated assets can facilitate the acquisition of new articulated object manipulation skills in simulation, which can then be transferred to a real robotic system.
+                        Our experiments show that <span class="rainbow">ARTICULATE ANYTHING</span> can generate large-scale, high-quality 3D articulated objects, including tools, toys, mechanical devices, and vehicles, significantly expanding the coverage of existing 3D articulated object datasets. Additionally, we show that these generated assets can facilitate the acquisition of new articulated object manipulation skills in simulation, which can then be transferred to a real robotic system. -->
+                        3D <b>articulated</b> objects modeling has long been a challenging problem, since it requires to capture both accurate surface geometries and semantically meaningful and spatially precise structures, parts, and joints. 
+                        Existing methods heavily depend on training data from a limited set of handcrafted articulated object categories (<i>e.g.</i>, cabinets and drawers), which restricts their ability to model a wide range of articulated objects in an open-vocabulary context.
+                        To address these limitations, we propose <span class="rainbow">ARTICULATE ANYTHING</span>, an automated framework that is able to convert any rigid 3D mesh into its articulated counterpart in an open-vocabulary manner. 
+                        Given a 3D mesh, our framework utilizes advanced Vision-Language Models and visual prompting techniques to extract semantic information, allowing for both the segmentation of object parts and the construction of functional joints.
+                        Our experiments show that <span class="rainbow">ARTICULATE ANYTHING</span> can generate large-scale, high-quality 3D articulated objects, including tools, toys, mechanical devices, and vehicles, significantly expanding the coverage of existing 3D articulated object datasets. 
+                        Additionally, we show that these generated assets can facilitate the acquisition of new articulated object manipulation skills in simulation, which can then be transferred to a real robotic system.
                     </p>
                 </div>
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
-                        <img src="assets/imgs/pipeline_1.jpg" width="90%">
+                        <!-- <img src="assets/imgs/pipeline_1.jpg" width="90%"> -->
+                        <img src="assets/imgs/pipeline_2.png" width="90%">
                     </div>
                 </div>
             </div></div>
