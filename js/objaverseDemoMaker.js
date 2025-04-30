@@ -5,12 +5,12 @@ const objaverseDemos = [
         model: "https://sketchfab.com/3d-models/ww1-vintage-compass-df9fa07ac2a644a2818c16a7b97cc5ba/embed",
         result: "assets/videos/objaverse_examples/compass.gif"
     },
-    {
-        name: "Lantern",
-        thumbnail: "assets/videos/objaverse_examples/lantern_thumbnail.jpg",
-        model: "https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae04d9c/embed",
-        result: "assets/videos/objaverse_examples/lantern.gif"
-    },
+    // {
+    //     name: "Lantern",
+    //     thumbnail: "assets/videos/objaverse_examples/lantern_thumbnail.jpg",
+    //     model: "https://sketchfab.com/3d-models/lantern-f0b0ea89f20b4f10bb583c449ae04d9c/embed",
+    //     result: "assets/videos/objaverse_examples/lantern.gif"
+    // },
     {
         name: "Rusty Car",
         thumbnail: "https://media.sketchfab.com/models/544aa41de67b48cf89f8fcc2bb06e8f4/thumbnails/7c955920d3fa42ccaa76043faa63a4a0/1024x576.jpeg",
@@ -29,12 +29,12 @@ const objaverseDemos = [
         model: "https://sketchfab.com/3d-models/turnstile-97d0a569506e4c2da5bb1b7262149951/embed",
         result: "assets/videos/teaser/turnstile.gif"
     },
-    {
-        name: "Missile",
-        thumbnail: "https://media.sketchfab.com/models/3e4608397b4a464ca5563fb94cdb4221/thumbnails/84aca90bb09342f6a15caad6595ebd9c/dea7adb7513048aa82d503e2a616c897.jpeg",
-        model: "https://sketchfab.com/3d-models/scifi-missile-launcher-3e4608397b4a464ca5563fb94cdb4221/embed",
-        result: "assets/videos/teaser/missle_launcher.gif"
-    },
+    // {
+    //     name: "Missile",
+    //     thumbnail: "https://media.sketchfab.com/models/3e4608397b4a464ca5563fb94cdb4221/thumbnails/84aca90bb09342f6a15caad6595ebd9c/dea7adb7513048aa82d503e2a616c897.jpeg",
+    //     model: "https://sketchfab.com/3d-models/scifi-missile-launcher-3e4608397b4a464ca5563fb94cdb4221/embed",
+    //     result: "assets/videos/teaser/missle_launcher.gif"
+    // },
     {
         name: "Space craft",
         thumbnail: "https://media.sketchfab.com/models/e766136d4871441289d37d44a4bbcd3b/thumbnails/b09767dc936f4ebc8f37476c28eed382/de01fb91f0b14ce3872f76f683140f23.jpeg",
