@@ -20,7 +20,7 @@ const rdDemos = [
     {
         title: "Microwave",
         description: "Microwave",
-        result: "assets/videos/microwave.gif",
+        result: "assets/videos/micro.gif",
         thumbnail: "assets/imgs/rd_examples/microwave_rgb.png",
     },
     // {
