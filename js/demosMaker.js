@@ -1,64 +1,84 @@
 const demos = [
     {
-        title: "Drawer",
-        description: "A wooden drawer",
-        video: "assets/videos/drawer.gif"
-    },
-    {
-        title: "Bucket",
-        description: "An orange bucket with a Jack-o'-lantern face",
-        video: "assets/videos/bucket.gif"
-    },
-    {
-        title: "Clamp",
-        description: "A metal clamp",
-        video: "assets/videos/clamp.gif"
-    },
-    {
-        title: "Safe",
-        description: "A safe box",
-        video: "assets/videos/safe.gif"
-    },
-    {
-        title: "Helmet",
-        description: "A red motorcycle stunt helmet",
-        video: "assets/videos/helmet.gif"
-    },
-    {
-        title: "Fire Extinguisher",
-        description: "A fire extinguisher",
-        video: "assets/videos/fire-extinguisher.gif"
-    },
-    {
-        title: "Envelope",
-        description: "A red box-like envelope",
-        video: "assets/videos/envelope.gif"
-    },
-    {
-        title: "Angle Grinder",
-        description: "A yellow angle grinder",
-        video: "assets/videos/angle-grinder.gif"
-    },
-    {
-        title: "Oven",
-        description: "An oven",
-        video: "assets/videos/oven.gif"
-    },
-    {
-        title: "Monocular",
-        description: "A bronze monocular",
-        video: "assets/videos/monocular.gif"
-    },
-    {
-        title: "Ornithopter",
-        description: "An ornithopter",
-        video: "assets/videos/ornithopter.gif"
-    },
-    {
         title: "Pizza cutter",
-        description: "A pizza cutter with a red handle",
-        video: "assets/videos/pizza_cutter.gif"
-    }
+        description: "Pizza cutter",
+        video: "assets/videos/pizza_cutter2.gif",
+    },
+    {
+        title: "Cabinet",
+        description: "Cabinet",
+        video: "assets/videos/cabinet.gif",
+    },
+    {
+        title: "Mirror",
+        description: "Mirror",
+        video: "assets/videos/mirror.gif",
+    },
+    {
+        title: "Microwave",
+        description: "Microwave",
+        video: "assets/videos/microwave.gif",
+    },
+    // {
+    //     title: "Drawer",
+    //     description: "A wooden drawer",
+    //     video: "assets/videos/drawer.gif"
+    // },
+    // {
+    //     title: "Bucket",
+    //     description: "An orange bucket with a Jack-o'-lantern face",
+    //     video: "assets/videos/bucket.gif"
+    // },
+    // {
+    //     title: "Clamp",
+    //     description: "A metal clamp",
+    //     video: "assets/videos/clamp.gif"
+    // },
+    // {
+    //     title: "Safe",
+    //     description: "A safe box",
+    //     video: "assets/videos/safe.gif"
+    // },
+    // {
+    //     title: "Helmet",
+    //     description: "A red motorcycle stunt helmet",
+    //     video: "assets/videos/helmet.gif"
+    // },
+    // {
+    //     title: "Fire Extinguisher",
+    //     description: "A fire extinguisher",
+    //     video: "assets/videos/fire-extinguisher.gif"
+    // },
+    // {
+    //     title: "Envelope",
+    //     description: "A red box-like envelope",
+    //     video: "assets/videos/envelope.gif"
+    // },
+    // {
+    //     title: "Angle Grinder",
+    //     description: "A yellow angle grinder",
+    //     video: "assets/videos/angle-grinder.gif"
+    // },
+    // {
+    //     title: "Oven",
+    //     description: "An oven",
+    //     video: "assets/videos/oven.gif"
+    // },
+    // {
+    //     title: "Monocular",
+    //     description: "A bronze monocular",
+    //     video: "assets/videos/monocular.gif"
+    // },
+    // {
+    //     title: "Ornithopter",
+    //     description: "An ornithopter",
+    //     video: "assets/videos/ornithopter.gif"
+    // },
+    // {
+    //     title: "Pizza cutter",
+    //     description: "A pizza cutter with a red handle",
+    //     video: "assets/videos/pizza_cutter.gif"
+    // }
 ];
 
 {/* <div class="col justify-content-center align-middle">
